@@ -1,0 +1,98 @@
+/* TAB DOOR */
+.tab-icon-door {
+    width: 2.8125rem;
+    height: 2.8125rem;
+    fill: var(--main-grey);
+}
+
+@media(max-width: 900px) {
+    .tab-icon-door {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+}
+
+/* TAB DEVICES */
+.tab-icon-devices {
+    width: 9.6875rem;
+    height: 9.6875rem;
+    fill: var(--main-grey);
+}
+
+@media(max-width: 900px) {
+    .tab-icon-devices {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
+/* TAB PRICE */
+.tab-icon-price {
+    width: 4.375rem;
+    height: 4.375rem;
+    fill: var(--main-grey);
+}
+
+@media(max-width: 900px) {
+    .tab-icon-price {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+}
+
+/* TABS */
+.main-tabs {
+    padding-top: 1rem;
+}
+
+.tab-nav {
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    color: var(--main-grey);
+    margin: 0 12%;
+}
+
+ul li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+ul li:hover svg path {
+    fill: #fff;
+}
+
+/* TABS ACTIVE EFFECT */
+.active {
+    border-bottom: 4px solid var(--main-red);
+}
+
+.tab-selected {
+    color: #fff;
+}
+
+.tab-selected svg path {
+    fill: #fff;
+}
+
+/* TAB NAV MEDIA */
+@media(min-width: 900px) {
+    .mdScreen {
+        display: none;
+    }
+}
+
+@media(max-width: 900px) {
+    .lgScreen {
+        display: none;
+    }
+
+    .mdScreen {
+        display: block;
+        margin-bottom: 0.4rem;
+    }
+}
