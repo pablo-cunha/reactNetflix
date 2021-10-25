@@ -18,7 +18,7 @@ function TabContent1() {
                     <Button style={{ marginTop: '2rem' }}>try it now</Button>
                     </Link>
                 </div>
-                    <img src={tabPic} />
+                    <img src={tabPic} alt="open door" />
                 </div>
             </div>
         </TabContentContainer>

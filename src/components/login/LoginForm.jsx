@@ -4,7 +4,7 @@ import { generateMedia } from 'styled-media-query'
 import { Link } from 'react-router-dom'
 import fbLogo from '../../images/fb-logo.png'
 
-const regexp = RegExp(/^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/);
+const regexp = RegExp(/^([a-zA-Z0-9_\-.]+)@([a-zA-Z0-9_\-.]+)\.([a-zA-Z]{2,5})$/);
 
 const initialState = {
     checked: true,
