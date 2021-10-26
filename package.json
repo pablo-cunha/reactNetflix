@@ -13,6 +13,7 @@
     "react-scripts": "4.0.3",
     "react-tabs": "^3.2.2",
     "styled-components": "^5.3.3",
+    "styled-media-query": "^2.1.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
